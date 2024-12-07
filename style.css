@@ -1,185 +1,95 @@
-/* General Colors */
-:root {
-    --hijau: #4CAF50;
-    --hijautua: #388E3C;
-    --abuabu: #BDBDBD;
-    --merah: #F44336;
-    --putih: #FFFFFF;
-    --hitam: #000000;
-    --kuning: #FFEB3B;
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Background Colors */
-.latar-hijautua {
-    background-color: var(--hijautua);
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-.bg-hijau {
-    background-color: var(--hijau);
-}
-
-.bg-abuabu {
-    background-color: var(--abuabu);
-}
-
-.bg-kuning {
-    background-color: var(--kuning);
-}
-
-/* Text Colors */
-.tebal {
-    font-weight: bold;
-}
-
-.hitam {
-    color: var(--hitam);
-}
-
-.putih {
-    color: var(--putih);
-}
-
-.merah {
-    color: var(--merah);
-}
-
-.hijautua {
-    color: var(--hijautua);
-}
-
-.kecil {
-    font-size: 0.9em;
-}
-
-/* Button Styles */
-.btn2 {
-    padding: 12px 30px;
-    border-radius: 5px;
-    font-weight: bold;
+/* Header Section */
+header {
+    background-color: #1b5e20;
+    color: white;
+    padding: 50px 0;
     text-align: center;
-    display: inline-block;
-}
-
-.btn-besar {
-    font-size: 1.2em;
-    padding: 15px 40px;
-}
-
-.btn-hijautua {
-    background-color: var(--hijautua);
-    color: var(--putih);
-}
-
-.btn3-putih {
-    background-color: var(--putih);
-    color: var(--hijautua);
-    border: 2px solid var(--hijautua);
-}
-
-.bounce-in {
-    animation: bounceIn 1s ease-out;
-}
-
-@keyframes bounceIn {
-    0% {
-        transform: scale(0);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-/* Box/Containers */
-.box {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: var(--putih);
-}
-
-.bg-abuabu .box {
-    background-color: var(--abuabu);
-}
-
-.melengkung {
-    border-radius: 10px;
-}
-
-.melengkung2 {
-    border-radius: 15px;
-}
-
-.melengkung5 {
-    border-radius: 25px;
-}
-
-.shadow {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Flexbox Layout */
-.konten {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.konten.tengah {
-    justify-content: center;
-    align-items: center;
-}
-
-/* Countdown Timer */
-#countdowna {
-    color: var(--merah);
-    font-family: 'Roboto', Sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bolder;
     font-size: 2em;
 }
 
-.count {
-    display: inline-block;
-    font-size: 16px;
-    margin: 40px 5px 5px 5px;
-    color: #333;
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
 }
 
-.count span {
-    font-size: 6em;
-    background: rgba(255, 255, 255, 0.75);
-    color: #333;
+header img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn2 {
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
-    padding: 0 10px 20px 10px;
-    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.36);
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
-@media (max-width: 700px) {
-    .count {
-        font-size: 12px;
-        margin: 20px 5px 5px 5px;
-    }
-
-    .count span {
-        font-size: 4em;
-        padding: 0 8px;
-    }
+.btn2:hover {
+    background-color: #388e3c;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 700px) {
-    .kol-13, .kol-12 {
-        width: 100%;
-    }
-
-    .btn-besar {
-        font-size: 1em;
-        padding: 12px 30px;
-    }
+/* Section Styles */
+.fitur {
+    padding: 60px 0;
 }
+
+.fitur.bg-hijau {
+    background-color: #388e3c;
+    color: white;
+}
+
+.fitur.bg-abuabu {
+    background-color: #f1f1f1;
+}
+
+.fitur .konten {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.konten h2, .konten h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.konten p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.konten ul {
+    list-style: none;
+    padding: 0;
+}
+
+.konten li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.konten .box {
+    padding: 30px;
+    backgro
