@@ -1,99 +1,121 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+/* General Colors */
+:root {
+    --hijau: #4CAF50;
+    --hijautua: #388E3C;
+    --abuabu: #BDBDBD;
+    --merah: #F44336;
+    --putih: #FFFFFF;
+    --hitam: #000000;
+    --kuning: #FFEB3B;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+/* Background Colors */
+.latar-hijautua {
+    background-color: var(--hijautua);
 }
 
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+.bg-hijau {
+    background-color: var(--hijau);
 }
 
-.navbar ul li {
-    margin: 0 15px;
+.bg-abuabu {
+    background-color: var(--abuabu);
 }
 
-.navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.1rem;
+.bg-kuning {
+    background-color: var(--kuning);
 }
 
-.navbar ul li a:hover {
-    color: #ffa500;
+/* Text Colors */
+.tebal {
+    font-weight: bold;
 }
 
-/* Sections */
-main section {
-    padding: 2rem 1.5rem;
+.hitam {
+    color: var(--hitam);
+}
+
+.putih {
+    color: var(--putih);
+}
+
+.merah {
+    color: var(--merah);
+}
+
+.hijautua {
+    color: var(--hijautua);
+}
+
+.kecil {
+    font-size: 0.9em;
+}
+
+/* Button Styles */
+.btn2 {
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
     text-align: center;
-}
-
-main section img {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-p, ul, ol {
-    margin: 0.5rem 0;
-}
-
-ul, ol {
-    text-align: left;
     display: inline-block;
 }
 
-/* Form */
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
+.btn-besar {
+    font-size: 1.2em;
+    padding: 15px 40px;
 }
 
-form label {
-    margin-bottom: 0.5rem;
-    text-align: left;
+.btn-hijautua {
+    background-color: var(--hijautua);
+    color: var(--putih);
 }
 
-form input, form textarea, form button {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.btn3-putih {
+    background-color: var(--putih);
+    color: var(--hijautua);
+    border: 2px solid var(--hijautua);
 }
 
-form button {
-    background: #333;
-    color: #fff;
-    cursor: pointer;
+.bounce-in {
+    animation: bounceIn 1s ease-out;
 }
 
-form button:hover {
-    background: #ffa500;
+@keyframes bounceIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: white;
+/* Box/Containers */
+.box {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--putih);
 }
+
+.bg-abuabu .box {
+    background-color: var(--abuabu);
+}
+
+.melengkung {
+    border-radius: 10px;
+}
+
+.melengkung2 {
+    border-radius: 15px;
+}
+
+.melengkung5 {
+    border-radius: 25px;
+}
+
+.shadow {
+    box-shadow: 0 4px 10px rgba(0, 
