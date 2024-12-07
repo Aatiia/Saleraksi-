@@ -9,7 +9,7 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1 rem 0;
 }
 
 /* Navbar */
@@ -22,13 +22,13 @@ header {
 }
 
 .navbar ul li {
-    margin: 0 15px;
+    margin: 0 15 px;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.1 rem;
 }
 
 .navbar ul li a:hover {
@@ -37,14 +37,14 @@ header {
 
 /* Sections */
 main section {
-    padding: 2rem 1.5rem;
+    padding: 2 rem 1.5 rem;
     text-align: center;
 }
 
 main section img {
-    max-width: 100%;
+    max-width: 100 px;
     height: auto;
-    margin: 1rem 0;
+    margin: 1 rem 0;
 }
 
 h1, h2 {
@@ -52,7 +52,7 @@ h1, h2 {
 }
 
 p, ul, ol {
-    margin: 0.5rem 0;
+    margin: 0.5 rem 0;
 }
 
 ul, ol {
@@ -64,23 +64,23 @@ ul, ol {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 400 px;
     margin: 0 auto;
 }
 
 form label {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5 rem;
     text-align: left;
 }
 
 form input, 
 form textarea, 
 form button {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 1 rem;
+    padding: 0.5 rem;
+    font-size: 1 rem;
+    border: 1 px solid #ccc;
+    border-radius: 5 px;
 }
 
 form button {
@@ -96,7 +96,7 @@ form button:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 1 rem;
     background: #333;
     color: white;
 }
