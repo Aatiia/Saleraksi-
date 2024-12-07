@@ -1,0 +1,198 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+.fitur.oke.latar-hijautua {
+    background-color: #00a859; /* Green background */
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.konten.tengah h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.konten p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Box Styling */
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.box img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.box .btn2 {
+    display: inline-block;
+    background-color: #00a859;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.box .btn2:hover {
+    background-color: #007a3b;
+}
+
+/* Section Titles */
+h2, h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* List Styling */
+ul.fa-ul {
+    list-style: none;
+}
+
+.fa-li {
+    margin-right: 10px;
+}
+
+.garis-putih {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.garis-hijau {
+    color: #00a859;
+}
+
+.fa-check-circle {
+    color: #00a859;
+}
+
+.merah {
+    color: #e74c3c;
+}
+
+.merah.x-besar {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Countdown Timer */
+#countdowna {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.count {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.count span {
+    font-size: 4em;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 700px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .konten.tengah h2 {
+        font-size: 24px;
+    }
+
+    .box {
+        padding: 15px;
+    }
+
+    .count {
+        font-size: 16px;
+    }
+}
+
+/* Additional Styles */
+.bg-hijau {
+    background-color: #00a859;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.melengkung {
+    border-radius: 8px;
+}
+
+.melengkung5 {
+    border-radius: 20px;
+}
+
+.kecil {
+    font-size: 14px;
+}
+
+.teks-fitur p {
+    font-size: 16px;
+    color: #333;
+}
+
+.konten.headline h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.icon-rounded-putih {
+    font-size: 24px;
+    color: white;
+    background-color: #00a859;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.bg-abuabu {
+    background-color: #f7f7f7;
+}
+
+.bg-kuning {
+    background-color: #f39c12;
+}
+
+/* Hover Effects */
+.box:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
