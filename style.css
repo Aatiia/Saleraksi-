@@ -1,198 +1,174 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saleraksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Body Styling */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
-}
+<!-- AWAL HEADER -->
+<div class="fitur oke latar-hijautua">
+    <div class="konten tengah">
+        <br/>
+        <h1 class="x-besar tebal">Selamat Datang di SALERAKSI!</h1>
+    </div>
+    <div class="konten">
+        <div class="kol-12">
+            <div class="box tengah">
+                <img width="400" alt="produk" src="C:\Users\MSI Gaming\Downloads\CODING.jpeg"/>
+            </div>
+        </div>
+        <div class="kol-12">
+            <div class="box mobilecenter">
+                <p>Ingin pakaian bersih sempurna tanpa mengorbankan kesehatan dan lingkungan?</p>
+                <p>Saleraksi, detergen alami berbahan dasar lerak dan jeruk kalamansi, hadir untuk Anda!</p>
+                <br/>
+                <a class="btn2 btn3-putih btn-besar" href="/">Pesan Sekarang</a>
+            </div>
+        </div>
+    </div>          
+</div>
+<!-- AKHIR HEADER -->
 
-/* Header Styling */
-.fitur.oke.latar-hijautua {
-    background-color: #00a859; /* Green background */
-    padding: 40px 0;
-    color: #fff;
-    text-align: center;
-}
+<!-- AWAL MASALAH -->
+<div class="fitur oke">
+    <div class="konten tengah">
+        <span class="bg-hijau box melengkung5 hijautua"><b>SAYA MAU TANYA</b></span>
+        <h2 class="tebal hitam">Apakah anda mengalami masalah dibawah ini?</h2>
+    </div>
+    <div class="konten">
+        <div class="kol-12 kanan">
+            <div class="box">
+                <ul class="fa-ul">
+                    <li class="garis-putih"><i class="fa-li fa fa-times merah sedang"></i>Pakain cepat rusak</li>
+                    <li class="garis-putih"><i class="fa-li fa fa-times merah sedang"></i>Kulit sensitif dan iritasi</li>
+                    <li class="garis-putih"><i class="fa-li fa fa-times merah sedang"></i>Noda membandel</li>
+                    <li class="garis-putih"><i class="fa-li fa fa-times merah sedang"></i>Pencemaran air</li>
+                </ul>
+            </div>
+        </div>
+        <div class="kol-12">
+            <div class="box tengah">
+                <img width="400" alt="pusing" src="C:\Users\MSI Gaming\Downloads\cc.jpg"/>
+            </div>
+        </div>
+    </div>
+    <div class="konten tengah">
+        <p class="sedang line3">Jika Anda mengalami hal tersebut, artinya Anda <b>WAJIB</b> membaca halaman ini sampai selesai!</p>
+    </div>
+</div>
+<!-- AKHIR MASALAH -->
 
-.konten.tengah h1 {
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
+<!-- AWAL FAKTA -->
+<div class="fitur oke bg-abuabu">
+    <div class="konten tengah">
+        <span class="bg-hijau box melengkung5 hijau"><b>KAMU PERLU TAHU</b></span>
+        <h3 class="tebal hitam">Fakta Membuktikan Bahwa</h3>
+    </div>
+    <div class="konten tengah">
+        <div class="kol-13">
+            <div class="box">
+                <div class="box tengah latar-putih melengkung2">
+                    <img width="200" class="box" alt="menulis" src="C:\Users\MSI Gaming\Downloads\lerak.jpeg"/>
+                    <p class="kecil">Lerak mengandung saponin, senyawa alami yang dapat menghasilkan busa dan berfungsi sebagai deterjen alami. Ini efektif untuk membersihkan kotoran dan noda pada pakaian.</p>
+                </div>
+            </div>
+        </div>
+        <div class="kol-13">
+            <div class="box">
+                <div class="box tengah latar-putih melengkung2">
+                    <img width="200" class="box" alt="menulis" src="C:\Users\MSI Gaming\Downloads\jeruk.jpeg"/>
+                    <p class="kecil">Asam sitrat yang terkandung dalam jeruk kalamansi efektif untuk menghilangkan noda pada pakaian, seperti noda minyak atau keringat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AKHIR FAKTA -->
 
-.konten p {
-    font-size: 16px;
-    line-height: 1.6;
-}
+<!-- AWAL INGIN -->
+<div class="fitur oke">
+    <div class="konten">
+        <div class="kol-12 kanan">
+            <div class="box">
+                <h2 class="tebal hijautua mobilecenter">Dan Apakah Anda selama ini menginginkan hal ini?</h2>
+                <ul class="fa-ul">
+                    <li class="garis-hijau"><i class="fa-li fa fa-check-circle hijautua sedang"></i>Menjaga keawetan pakaian</li>
+                    <li class="garis-hijau"><i class="fa-li fa fa-check-circle hijautua sedang"></i>Bebas bahan kimia dan aman untuk kulit sensitif</li>
+                    <li class="garis-hijau"><i class="fa-li fa fa-check-circle hijautua sedang"></i>Berbahan dasar alami sehingga tidak mencemari lingkungan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="kol-12">
+            <div class="box tengah">
+                <img width="350" alt="ingin" src="C:\Users\MSI Gaming\Downloads\download (1).jpg"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AKHIR INGIN -->
 
-/* Box Styling */
-.box {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
+<!-- AWAL MEMPERKENALKAN -->
+<div class="fitur oke latar-hijautua">
+    <div class="konten tengah">
+        <div class="konten lebar75">
+            <span class="bg-hijau box melengkung5 hijautua"><b>MEMPERKENALKAN</b></span>
+            <h2 class="tebal putih">SALERAKSI</h2>
+            <img class="box" width="500" alt="produk" src="C:\Users\MSI Gaming\Downloads\pp.jpg"/>
+            <p>Saleraksi, sabun berbahan dasar lerak dan jeruk kalamansi. Saleraksi adalah solusi cerdas untuk mencuci pakaian.</p>
+        </div>
+    </div>
+</div>
+<!-- AKHIR MEMPERKENALKAN -->
 
-.box img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
+<!-- AWAL KEUNGGULAN -->
+<div class="fitur oke">
+    <div class="konten headline">
+        <span class="bg-hijau box melengkung5 hijautua"><b>BERIKUT INI</b></span>
+        <h2 class="tebal">Manfaat/Keunggulan Produk Anda</h2>
+    </div>
+    <div class="konten">
+        <div class="kol-12">
+            <div class="box">
+                <div class="bg-abuabu melengkung">
+                    <div class="box">
+                        <div class="ico-fitur hijautua">
+                            <i class="fa fa-check-square fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="teks-fitur">
+                            <p class="tebal hijautua">Cucian Bersih Sempurna: Formula lerak ampuh angkat noda membandel.</p>
+                            <p class="kecil">Aman untuk Kulit Sensitif: Bebas bahan kimia keras, cocok untuk seluruh keluarga.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kol-12">
+            <div class="box">
+                <div class="bg-abuabu melengkung">
+                    <div class="box">
+                        <div class="ico-fitur hijautua">
+                            <i class="fa fa-check-square fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="teks-fitur">
+                            <p class="tebal hijautua">Ramah Lingkungan: Berbahan alami, limbah mudah terurai, peduli bumi.</p>
+                            <p class="kecil">Lembut untuk Kain: Merawat serat kain agar lebih awet dan nyaman.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- AKHIR KEUNGGULAN -->
 
-.box .btn2 {
-    display: inline-block;
-    background-color: #00a859;
-    color: #fff;
-    padding: 10px 20px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.box .btn2:hover {
-    background-color: #007a3b;
-}
-
-/* Section Titles */
-h2, h3 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* List Styling */
-ul.fa-ul {
-    list-style: none;
-}
-
-.fa-li {
-    margin-right: 10px;
-}
-
-.garis-putih {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-.garis-hijau {
-    color: #00a859;
-}
-
-.fa-check-circle {
-    color: #00a859;
-}
-
-.merah {
-    color: #e74c3c;
-}
-
-.merah.x-besar {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-/* Countdown Timer */
-#countdowna {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.count {
-    background: rgba(255, 255, 255, 0.75);
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.count span {
-    font-size: 4em;
-}
-
-/* Mobile Adjustments */
-@media (max-width: 700px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    .konten.tengah h2 {
-        font-size: 24px;
-    }
-
-    .box {
-        padding: 15px;
-    }
-
-    .count {
-        font-size: 16px;
-    }
-}
-
-/* Additional Styles */
-.bg-hijau {
-    background-color: #00a859;
-    color: white;
-    padding: 8px 20px;
-    border-radius: 20px;
-}
-
-.melengkung {
-    border-radius: 8px;
-}
-
-.melengkung5 {
-    border-radius: 20px;
-}
-
-.kecil {
-    font-size: 14px;
-}
-
-.teks-fitur p {
-    font-size: 16px;
-    color: #333;
-}
-
-.konten.headline h2 {
-    font-size: 30px;
-    color: #333;
-    text-align: center;
-}
-
-.icon-rounded-putih {
-    font-size: 24px;
-    color: white;
-    background-color: #00a859;
-    padding: 15px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.bg-abuabu {
-    background-color: #f7f7f7;
-}
-
-.bg-kuning {
-    background-color: #f39c12;
-}
-
-/* Hover Effects */
-.box:hover {
-    transform: scale(1.03);
-    transition: transform 0.3s ease-in-out;
-}
+<!-- AWAL HARUS KAMI -->
+<div class="fitur oke latar-hijautua">
+    <div class="konten headline wow animated fadeInDown">
+        <span class="bg-hijau box melengkung5 hijautua"><b>MENGAPA</b></span>
+        <h2 class="tebal putih">Harus Beli di toko Kami</h2>
+    </div>
+    <div class="konten tengah">
+        <div class="kol-13 wow animated fade
